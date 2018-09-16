@@ -55,7 +55,7 @@ see the interface at http://localhost:3000
 ##set up Port of WS_SECRET
 
 ```bash
-PORT=80 WS_SECRET=[your secret] npm start
+PORT=80 WS_SECRET=moacdev.com npm start
 ```
 
 ##Donations
