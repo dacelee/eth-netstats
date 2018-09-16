@@ -2,7 +2,7 @@ Moac Network Stats
 ============
 
 
-This is a visual interface for tracking moac network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [moac-netstats-api](https://github.com/).
+This is a visual interface for tracking moac network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [moac-netstats-api](https://github.com/dacelee/moac-netstats-api).
 
 
 ## Prerequisite
