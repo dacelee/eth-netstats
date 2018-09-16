@@ -23,7 +23,7 @@ Clone the repository and install the dependencies
 git clone https://github.com/dacelee/moac-netstats/
 cd moac-netstats
 npm install
-sudo npm install -g grunt-cli
+npm install -g grunt-cli
 ```
 
 ##Build the resources
