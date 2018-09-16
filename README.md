@@ -1,10 +1,9 @@
-Ethereum Network Stats
+Moac Network Stats
 ============
-[![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url]
 
-This is a visual interface for tracking ethereum network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [eth-net-intelligence-api](https://github.com/cubedro/eth-net-intelligence-api).
 
-![Screenshot](https://raw.githubusercontent.com/cubedro/eth-netstats/master/src/images/screenshot.jpg?v=0.0.6 "Screenshot")
+This is a visual interface for tracking moac network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [moac-netstats-api](https://github.com/).
+
 
 ## Prerequisite
 * node
@@ -12,12 +11,17 @@ This is a visual interface for tracking ethereum network status. It uses WebSock
 
 ## Installation
 Make sure you have node.js and npm installed.
-
+```bash
+sudo apt-get update
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+source ~/.bashrc
+nvm install v6.9.1
+```
 Clone the repository and install the dependencies
 
 ```bash
-git clone https://github.com/cubedro/eth-netstats
-cd eth-netstats
+git clone https://github.com/dacelee/moac-netstats/
+cd moac-netstats
 npm install
 sudo npm install -g grunt-cli
 ```
@@ -46,10 +50,13 @@ grunt all
 ```bash
 npm start
 ```
-
 see the interface at http://localhost:3000
+##set up Port of WS_SECRET
 
-[travis-image]: https://travis-ci.org/cubedro/eth-netstats.svg
-[travis-url]: https://travis-ci.org/cubedro/eth-netstats
-[dep-image]: https://david-dm.org/cubedro/eth-netstats.svg
-[dep-url]: https://david-dm.org/cubedro/eth-netstats
+```bash
+PORT=80 WS_SECRET=[your secret] npm start
+```
+
+##Donations
+MOAC: 0x53be4cb8f27152893b448f9f569624afd1a97e0c
+
